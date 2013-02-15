@@ -1,3 +1,60 @@
-= documents_short
+=Documents Short plugin
 
-Description goes here
+A Redmine plugin which displays the documents list in a shorter way.
+
+==Author
+
+* Stéphane Moreau
+
+==Latest release
+
+The currently available, latest release of the plugin is version <b>0.1.0</b>.
+
+==Description
+
+The Documents Short plugin is a Redmine plugin which displays the documents list in a shorter way. This is done by using the JavaScript tooltip framework called Opentip (http://www.opentip.org/).
+
+==Compatibility
+
+This plugin has only been tested on Redmine 2.1.x.
+
+==Obtaining 
+
+<i>URL of the GitHub repository: http://github.com/smoreau/redmine_documents_short</i>
+
+The source of this plugin can be "cloned" from the GitHub-repo using:
+
+  $ cd {REDMINE_ROOT}/vendor/plugins
+  $ git clone git://github.com/smoreau/redmine_documents_short.git
+
+==Installation
+
+1. Download the plugin from the available source (see http://www.redmine.org/wiki/redmine/PluginDocumentsShort#Obtaining)
+2. Install the plugin as described at: http://www.redmine.org/wiki/redmine/Plugins (this plugin does not require a plugin database migration)
+3. Restart Redmine
+
+==Setup
+
+Nothing to setup. This is the beauty of it!
+
+==Upgrading
+
+1. Backup the currently deployed Documents Short plugin (<tt>cp -r /vendor/plugins/redmine_documents_short /vendor/plugins/redmine_documents_short-backup</tt>)
+2. Reinstall the updated plugin:
+   * using the command: <tt>git pull</tt>
+3. Restart your Redmine
+
+==Uninstalling
+
+1. Remove the directory <i>"redmine_documents_short"</i> from the plugin-directory <i>"../vendor/plugins"</i>
+2. Restart Redmine
+
+==Support
+
+If you would like to report a bug or request a new feature you can open a new issue at the issue-tracking section of the plugins' GitHub site: http://github.com/smoreau/redmine_documents_short/issues.
+
+==Licensing
+
+This plugin is open-source and licensed under the "GNU General Public License v2" (http://www.gnu.org/licenses/old-licenses/gpl-2.0.html) (GPL). See the included <tt>COPYRIGHT.txt</tt> and <tt>GPL.txt</tt> files for details.
+
+* (C) 2013, Stéphane Moreau (http://www.logikdev.com)
