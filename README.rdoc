@@ -14,6 +14,10 @@ The currently available, latest release of the plugin is version <b>0.1.0</b>.
 
 The Documents Short plugin is a Redmine plugin which displays the documents list in a shorter way. This is done by using the JavaScript tooltip framework called Opentip (http://www.opentip.org/).
 
+==Screenshot
+
+<img src="https://raw.github.com/smoreau/redmine_documents_short/screenshot.jpg" />
+
 ==Compatibility
 
 This plugin has only been tested on Redmine 2.1.x.
