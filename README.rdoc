@@ -29,7 +29,7 @@ The source of this plugin can be "cloned" from the GitHub-repo using:
 
 ==Installation
 
-1. Download the plugin from the available source (see http://www.redmine.org/wiki/redmine/PluginDocumentsShort#Obtaining)
+1. Download the plugin from the available source (see http://www.redmine.org/plugins/redmine_documents_short#Obtaining)
 2. Install the plugin as described at: http://www.redmine.org/wiki/redmine/Plugins (this plugin does not require a plugin database migration)
 3. Restart Redmine
 
