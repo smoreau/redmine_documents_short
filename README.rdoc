@@ -16,7 +16,7 @@ The Documents Short plugin is a Redmine plugin which displays the documents list
 
 ==Screenshot
 
-<img src="https://raw.github.com/smoreau/redmine_documents_short/screenshot.jpg" />
+<img src="https://raw.github.com/smoreau/redmine_documents_short/master/screenshot.jpg" />
 
 ==Compatibility
 
