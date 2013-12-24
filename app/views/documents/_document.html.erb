@@ -1,4 +1,9 @@
 <h4>
-  <%= link_to h(document.title), document_path(document), :"data-ot" => textilizable(truncate_lines(document.description), :object => document).gsub("\"", "'") %>
+  <%
+    summary = textilizable(truncate_lines(document.description), :object => document)
+    summary = summary.gsub("\"", "'")
+    summary = summary.gsub(/<img .* \/>/, "")
+  %>
+  <%= link_to h(document.title), document_path(document), :"data-ot" => summary %>
   <span style="float:right; font-size:11px;"><em><%= format_time(document.updated_on) %></em></span>
 </h4>

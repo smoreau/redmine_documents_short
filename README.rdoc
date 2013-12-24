@@ -8,7 +8,7 @@ A Redmine plugin which displays the documents list in a shorter way.
 
 ==Latest release
 
-The currently available, latest release of the plugin is version <b>0.2.0</b>.
+The currently available, latest release of the plugin is version <b>0.3.0</b>.
 
 ==Description
 
@@ -20,7 +20,7 @@ The Documents Short plugin is a Redmine plugin which displays the documents list
 
 ==Compatibility
 
-This plugin has been tested on Redmine 2.1.x and 2.3.x.
+This plugin has been tested on Redmine 2.1.x, 2.3.x and 2.4.x.
 
 ==Obtaining 
 
