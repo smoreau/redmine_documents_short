@@ -20,7 +20,7 @@ The Documents Short plugin is a Redmine plugin which displays the documents list
 
 ==Compatibility
 
-This plugin has been tested on Redmine 2.1.x, 2.3.x and 2.4.x.
+This plugin has been tested on Redmine 2.1.x, 2.3.x, 2.4.x and 3.0.x.
 
 ==Obtaining 
 
@@ -43,14 +43,13 @@ Nothing to setup. This is the beauty of it!
 
 ==Upgrading
 
-1. Backup the currently deployed Documents Short plugin (<tt>cp -r /vendor/plugins/redmine_documents_short /vendor/plugins/redmine_documents_short-backup</tt>)
-2. Reinstall the updated plugin:
-   * using the command: <tt>git pull</tt>
+1. Backup the currently deployed Documents Short plugin (<tt>cp -r plugins/redmine_documents_short plugins/redmine_documents_short-backup</tt>)
+2. Upgrade the plugin using the command: <tt>git pull</tt>
 3. Restart your Redmine
 
 ==Uninstalling
 
-1. Remove the directory <i>"redmine_documents_short"</i> from the plugin-directory <i>"../vendor/plugins"</i>
+1. Remove the directory <i>"redmine_documents_short"</i> from the plugins directory
 2. Restart Redmine
 
 ==Support
@@ -61,4 +60,4 @@ If you would like to report a bug or request a new feature you can open a new is
 
 This plugin is open-source and licensed under the "GNU General Public License v2" (http://www.gnu.org/licenses/old-licenses/gpl-2.0.html) (GPL). See the included <tt>COPYRIGHT.txt</tt> and <tt>GPL.txt</tt> files for details.
 
-* (C) 2013, Stéphane Moreau (http://www.logikdev.com)
+* (C) 2013-2015, Stéphane Moreau (http://www.logikdev.com)
