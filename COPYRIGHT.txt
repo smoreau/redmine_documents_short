@@ -1,6 +1,6 @@
 Tab is a Redmine plugin which displays the documents list in a shorter way.
 
-# Copyright (C) 2023,  Stéphane Moreau, (http://www.logikdev.com)
+# Copyright (C) 2024,  Stéphane Moreau, (http://www.logikdev.com)
 
 This program is free software; you can redistribute it and/or
 modify it under the terms of the GNU General Public License

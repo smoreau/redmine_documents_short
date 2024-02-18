@@ -9,6 +9,10 @@ html.search("div.document-item").each do |item|
   item.at_css("div.description").remove
   item.at_css("div.updated_on").remove
 
+  # Modify the CSS
+  item["style"] = "border:inherit; padding:inherit; margin-bottom:inherit; background-color:inherit;"
+  item.at_css("h4")["style"] = "font-size: 13px; border-bottom:1px solid #ccc;"
+
   # Clean the description
   description = textilizable(description)
   description = description.gsub(/¶/, "")
