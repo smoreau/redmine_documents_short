@@ -29,12 +29,12 @@ This plugin has been tested on Redmine 2.1.x, 2.3.x, 2.4.x, 3.0.x, 3.1.x, 3.2.x,
 The source of this plugin can be "cloned" from GitHub using:
 
   $ cd {REDMINE_ROOT}/plugins
-  $ git clone git://github.com/smoreau/redmine_documents_short.git
+  $ git clone git@github.com:smoreau/redmine_documents_short.git
 
 ==Installation
 
 1. Download the plugin from the available source (see http://www.redmine.org/plugins/redmine_documents_short#Obtaining)
-2. Install the plugin as described at: http://www.redmine.org/wiki/redmine/Plugins (this plugin does not require a plugin database migration)
+2. Install the plugin as described at: https://www.redmine.org/projects/redmine/wiki/Plugins (this plugin does not require a plugin database migration)
 3. Restart Redmine
 
 ==Setup
